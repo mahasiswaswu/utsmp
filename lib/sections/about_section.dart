@@ -15,11 +15,12 @@ class AboutSection extends StatelessWidget {
           right: 20,
           left: 20,
         ),
-        color: Colors.white,
+        color: Color.fromARGB(255, 76, 160, 160),
         child: Container(
           padding: const EdgeInsets.all(30),
           child: const Text(
-              "Mahasiswa STMIK WIDYA UTAMA Program Studi Teknik Informatika Semester 6."),
+              "Sedang Kuliah DI STMIK WIDYA UTAMA Jurusan Teknik Informatika"),
+              
         ),
       ),
     );

@@ -14,6 +14,7 @@ Column contactSection() {
     ],
   );
 }
+
 Card contactDetail() {
   return Card(
     margin: const EdgeInsets.all(20),
@@ -27,11 +28,11 @@ Card contactDetail() {
             textColor: Colors.blueGrey,
             leading: Icon(Icons.phone_android),
             title: Text(
-              "Mobile",
+              "Nomor Handphone",
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             subtitle: Text(
-              "+62 88983717112",
+              "+62 82327473489",
               style: TextStyle(color: Colors.black),
             ),
             dense: true,
@@ -45,7 +46,7 @@ Card contactDetail() {
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             subtitle: Text(
-              "akhlisazizah82@gmail.com",
+              "ima12334@gmail.com",
               style: TextStyle(color: Colors.black),
             ),
             dense: true,
@@ -59,7 +60,7 @@ Card contactDetail() {
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             subtitle: Text(
-              "Desa Banteran RT 3 RW 1, Kecamatan Cilongok, Kabupaten Banyumas",
+              "JL JAMBANGAN VIID NO 18 SURABAYA JAWA TIMUR",
               style: TextStyle(color: Colors.black),
             ),
             dense: true,
