@@ -26,14 +26,14 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage> {
   List<Tab> tabs = [
     const Tab(
-      text: "About Me",
+      text: "About",
       icon: Icon(
         Icons.account_box,
         color: Colors.white,
       ),
     ),
     const Tab(
-      text: "Profil",
+      text: "Contact",
       icon: Icon(
         Icons.account_box,
         color: Color.fromARGB(255, 255, 255, 255),
@@ -47,9 +47,9 @@ class _ProfilePageState extends State<ProfilePage> {
       length: tabs.length,
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 34, 105, 105),
+          backgroundColor: Color.fromARGB(255, 198, 229, 243),
           titleTextStyle: const TextStyle(
-            color: Color.fromARGB(255, 223, 0, 0),
+            color: Color.fromARGB(255, 255, 255, 255),
           ),
           toolbarHeight: 230,
           title: Padding(
@@ -87,11 +87,11 @@ class _ProfilePageState extends State<ProfilePage> {
     return const Padding(
       padding: EdgeInsets.only(top: 8.0),
       child: Text(
-        "IMACULATA HAGAR KEMAL",
+        "AKHLIS NUR AZIZAH",
         style: TextStyle(
           fontSize: 18,
           fontWeight: FontWeight.bold,
-          color: Color.fromARGB(255, 255, 255, 255),
+          color: Color.fromARGB(255, 48, 41, 41),
         ),
       ),
     );
@@ -101,11 +101,11 @@ class _ProfilePageState extends State<ProfilePage> {
     return const Padding(
       padding: EdgeInsets.only(top: 8.0),
       child: Text(
-        "STI202102516",
+        "STI202102276",
         style: TextStyle(
           fontSize: 14,
           fontWeight: FontWeight.bold,
-          color: Color.fromARGB(255, 255, 252, 252),
+          color: Color.fromARGB(2255, 48, 41, 41),
         ),
       ),
     );
@@ -123,7 +123,7 @@ class _ProfilePageState extends State<ProfilePage> {
           radius: 75,
           backgroundColor: Colors.transparent,
           backgroundImage: AssetImage(
-            'img/a.jpg',
+            'img/al.jpg',
           ),
         ));
   }
